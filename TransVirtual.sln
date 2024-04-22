@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransVirtual.Web", "TransVirtual.Web\TransVirtual.Web.csproj", "{30351675-568E-4156-8599-91F5435E60A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransVirtual.DijkstraAlgorithm", "TransVirtual.DijkstraAlgorithm\TransVirtual.DijkstraAlgorithm.csproj", "{20C38A56-F93A-47C6-ACC9-B1AEAC421AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransVirtual.DijkstraAlgorithmTests", "TransVirtual.DijkstraAlgorithmTests\TransVirtual.DijkstraAlgorithmTests.csproj", "{309B0FBE-80CF-4399-92DC-ED37896F9BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransVirtual.CLI", "TransVirtual.CLI\TransVirtual.CLI.csproj", "{2303A647-38E1-4FDD-91E5-323F3BE737DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30351675-568E-4156-8599-91F5435E60A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30351675-568E-4156-8599-91F5435E60A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30351675-568E-4156-8599-91F5435E60A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30351675-568E-4156-8599-91F5435E60A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C38A56-F93A-47C6-ACC9-B1AEAC421AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C38A56-F93A-47C6-ACC9-B1AEAC421AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C38A56-F93A-47C6-ACC9-B1AEAC421AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C38A56-F93A-47C6-ACC9-B1AEAC421AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309B0FBE-80CF-4399-92DC-ED37896F9BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309B0FBE-80CF-4399-92DC-ED37896F9BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309B0FBE-80CF-4399-92DC-ED37896F9BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309B0FBE-80CF-4399-92DC-ED37896F9BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2303A647-38E1-4FDD-91E5-323F3BE737DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2303A647-38E1-4FDD-91E5-323F3BE737DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2303A647-38E1-4FDD-91E5-323F3BE737DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2303A647-38E1-4FDD-91E5-323F3BE737DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF5D3CA6-5F4F-4A04-852A-365A9D72A12C}
+	EndGlobalSection
+EndGlobal

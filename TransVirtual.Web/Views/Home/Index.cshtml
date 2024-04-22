@@ -1,0 +1,49 @@
+﻿@model  TransVirtual.DijkstraAlgorithm.Models.ShortestPathData
+@{
+    ViewBag.Title = "Dijkstra's Algorithm";
+
+    string nodesJoined = null;
+    if (Model != null)
+    {
+        nodesJoined = string.Join(" -> ", Model.Path);
+    }
+}
+
+<main>
+    <form method="post">
+        <div class="form-row">
+            <label for="from">From:</label>
+            <input type="text" name="from" required />
+        </div>
+
+        <div class="form-row">
+            <label for="to">To:</label>
+            <input type="text" name="to" required />
+        </div>
+
+        <div class="btns">
+            <button type="submit">Get shortest path</button>
+        </div>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="error">
+            @ViewBag.Error
+        </div>
+    }
+
+    @if (Model != null)
+    {
+        <div class="results">
+            <div>
+                <span>Distance:</span>
+                <span>@Html.DisplayFor(m => m.Distance)</span>
+            </div>
+            <div>
+                <span>Path:</span>
+                <span>@nodesJoined</span>
+            </div>
+        </div>
+    }
+</main>
